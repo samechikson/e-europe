@@ -49,15 +49,15 @@
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
                 <a href="#home" class="flex-shrink-0 flex items-center">
-                    <img src="Images-Video/E+Europe-logo.svg" 
+                    <img src="Images-Video/E+Europe_logo.png" 
                          alt="E+Europe Logo" 
-                         class="h-12 w-auto">
+                         class="h-10 w-auto">
                 </a>
                 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex md:items-center md:space-x-8">
                     <a href="#about" class="font-semibold text-gray-600 hover:text-cyan-500 transition-colors duration-200">About Us</a>
-                    <a href="#what-we-do" class="font-semibold text-gray-600 hover:text-cyan-500 transition-colors duration-200">What We Do</a>
+                    <a href="#media" class="font-semibold text-gray-600 hover:text-cyan-500 transition-colors duration-200">Media</a>
                     <a href="#reports" class="font-semibold text-gray-600 hover:text-cyan-500 transition-colors duration-200">Reports</a>
                     <a href="#team" class="font-semibold text-gray-600 hover:text-cyan-500 transition-colors duration-200">Team</a>
                     <a href="#clients" class="font-semibold text-gray-600 hover:text-cyan-500 transition-colors duration-200">Clients</a>
@@ -82,8 +82,8 @@
         <div id="mobile-menu" class="hidden md:hidden shadow-lg border-t border-gray-200">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="#about" class="text-gray-600 hover:bg-gray-50 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-semibold">About Us</a>
-                <a href="#what-we-do" class="text-gray-600 hover:bg-gray-50 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-semibold">What We Do</a>
-                <a href="#reports" class="text-gray-600 hover:bg-gray-50 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-semibold">Reports</a>
+                <a href="#media" class="text-gray-600 hover:bg-gray-50 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-semibold">Media</a>
+                <a href="#reports" class="font-semibold text-gray-600 hover:text-cyan-500 transition-colors duration-200">Reports</a>
                 <a href="#team" class="text-gray-600 hover:bg-gray-50 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-semibold">Team</a>
                 <a href="#clients" class="text-gray-600 hover:bg-gray-50 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-semibold">Clients</a>
                 <a href="#contact" class="text-white bg-cyan-500 hover:bg-cyan-600 block px-3 py-2 rounded-md text-base font-semibold text-center">Contact</a>
@@ -96,7 +96,7 @@
 	    <section id="home" class="relative h-[calc(100vh-5rem)] flex items-center justify-center text-center text-white overflow-hidden">
         
 	        <video id="hero-video" autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-	            <source src="Images-Video/Brussels-Video.webm" type="video/webm">
+	            <source src="Images-Video/Brussels-Video.mp4" type="video/mp4">
 	            Your browser does not support the video tag.
 	        </video>
         
@@ -104,10 +104,10 @@
         
 	        <div class="relative z-20 max-w-4xl mx-auto px-4 flex flex-col items-center">
             
-	            <img src="Images-Video/E+Europe-logo.svg"alt="Your Logo" class="w-64 mb-8">
+	            <img src="Images-Video/E+Europe_logo.png" alt="Your Logo" class="w-64 mb-8">
 
 	            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight shadow-black/50" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">
-	                Your Guide to Internet Policy and Communications in Brussels.
+	                Hard-hitting, jargon-free research on European Tech Policy.
 	            </h1>
 	        </div>
 
@@ -119,95 +119,135 @@
 	        </a>
 	    </section>
 
-        <!-- About Us Section -->
-        <!-- Added fade-in-on-scroll class -->
-        <section id="about" class="py-24 fade-in-on-scroll">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-                <div class="text-left">
-                    <h2 class="text-4xl font-extrabold text-slate-900 mb-6">About Us</h2>
-                    <p class="text-xl text-gray-600 mb-6">
-                        We are a Brussels-based research organization specializing in European tech policy.
-                    </p>
-                    <p class="text-lg text-gray-500">
-                        We provide your guide to communications and government affairs in Brussels, helping you navigate the complex world of EU internet policy.
-                    </p>
-                </div>
-                <div class="flex justify-center">
-                    <img src="Images-Video/EU.png" 
-                         alt="European Union flags waving in front of the Parliament building"
-                         class="rounded-lg shadow-2xl object-cover w-full h-auto max-w-lg">
-                </div>
-            </div>
-        </section>
+        <!-- About Us Section and What We Do -->
+		<section id="about" class="py-24 fade-in-on-scroll">
+		    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+		        <div class="text-center mb-16">
+		            <h2 class="text-4xl font-extrabold text-slate-900">About Us</h2>
+		        </div>
 
-        <!-- What We Do Section -->
-        <section id="what-we-do" class="py-24 bg-gray-50 fade-in-on-scroll">
+		        <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+            
+		            <div class="text-left">
+		                <h3 class="text-3xl font-bold text-cyan-600 mb-4">Our Mission</h3>
+		                <p class="text-xl text-gray-600 mb-6">
+		                    We are a Brussels-based research organization specializing in European tech policy.
+		                </p>
+		                <p class="text-xl text-gray-600 mb-6">
+		                    We provide your guide to communications and government affairs in Brussels, helping you navigate the complex world of EU internet policy.
+		                </p>
+		            </div>
+            
+		            <div class="flex justify-center">
+		                <img src="Images-Video/EU.png" 
+		                     alt="European Union flags waving in front of the Parliament building"
+		                     class="rounded-lg shadow-2xl object-cover w-full h-auto max-w-lg">
+		            </div>
+		        </div>
+
+		        <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center mt-24">
+            
+		            <div class="flex justify-center md:order-first">
+		                <img src="Images-Video/Data-Center.png" 
+		                     alt="Placeholder for Storytelling"
+		                     class="rounded-lg shadow-2xl object-cover w-full h-auto max-w-lg">
+		            </div>
+
+		            <div class="text-left">
+		                <h3 class="text-3xl font-bold text-cyan-600 mb-4">We Prioritize Storytelling</h3>
+		                <p class="text-lg text-gray-600 mb-4">
+		                    Our research reports are clear, concise. They explain the big picture and back up policy suggestions with hard facts.
+		                </p>
+		            </div>
+		        </div>
+
+		    </div>
+		</section>
+
+        <!-- Media Section -->
+        <section id="media" class="py-24 fade-in-on-scroll">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
-                    <h2 class="text-4xl font-extrabold text-slate-900">What We Do</h2>
-                </div>
-                <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-start">
-                    <div>
-                        <h3 class="text-3xl font-bold text-cyan-600 mb-4">We Prioritize Storytelling</h3>
-                        <p class="text-lg text-gray-600 mb-4">
-                            Our research reports are clear, concise. They explain the big picture and back up policy suggestions with hard facts.
-                        </p>
-                    </div>
-            </div>
-        </section>
-
-        <!-- Reports & Media Section (Movement Blocks) -->
-        <section id="reports" class="py-24 fade-in-on-scroll">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl font-extrabold text-slate-900">Reports & Media</h2>
+                    <h2 class="text-4xl font-extrabold text-slate-900">Media</h2>
                 </div>
                 
                 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Card 1 -->
-					<a href="https://www.huffpost.com/author/william-echikson" target="_blank"
+					<a href="https://cepa.org/author/bill-echikson/" target="_blank"
 						class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100">
-					    <img src="Images-Video/Huffpost.png" alt="HuffPost" class="w-full h-48 object-cover">
+					    <img src="Images-Video/CEPA.png" alt="CEPA" class="w-full h-48 object-contain">
 					    <div class="p-6 flex flex-col flex-1">
-					        <h3 class="text-2xl font-bold text-slate-800 mb-3">Huffington Post Column</h3>
-					        <p class="text-gray-600 mb-5">
-					            I have written a regular column on European digital issues.
-					        </p>
-        
+					        <h3 class="text-2xl font-bold text-slate-800 mb-3">CEPA</h3>
 					        <span class="font-semibold text-cyan-500 text-lg mt-auto">Read more →</span>
 					    </div>
 					</a>
                     
                     <!-- Card 2 -->
-                    <a href="https://www.project-syndicate.org/columnist/william-echikson" target="_blank"
+                    <a href="https://www.politico.eu/author/william-echikson/" target="_blank"
 						class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100">
-                        <img src="Images-Video/Project-Syndicate.png" alt="Project Syndicate" class="w-full h-48 object-cover">
+                        <img src="Images-Video/Politico.png" alt="Politico" class="w-full h-48 object-cover">
                         <div class="p-6">
-                            <h3 class="text-2xl font-bold text-slate-800 mb-3">Europe’s Digital Reactionaries</h3>
-                            <p class="text-gray-600 mb-5">
-                                Many European politicians praise the Internet. Unfortunately, their lofty rhetoric often rings hollow. While calling for a strong digital agenda in one breath, the same politicians, supported by protectionist interests at home, often argue for putting a brake on the Internet’s “disruption” by imposing strict new regulation.
-                            </p>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3">Politico</h3>
                             <span class="font-semibold text-cyan-500 text-lg">Read more →</span>
                         </div>
                     </a>
 
                     <!-- Card 3 -->
-                    <a href="https://www.project-syndicate.org/commentary/silicon-valley-conditions-for-startup-technology-firms-by-ross-buchanan-2014-10" class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100">
-                        <img src="Images-Video/Project-Syndicate.png" alt="Project Syndicate" class="w-full h-48 object-cover">
+                    <a href="https://www.martenscentre.eu/article-author/bill-echikson/" target="_blank"
+					 class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100">
+                        <img src="Images-Video/Martens.svg" alt="Martens Center" class="w-full h-48 object-contain">
                         <div class="p-6 flex flex-col flex-1">
-                            <h3 class="text-2xl font-bold text-slate-800 mb-3">Make Your Own Silicon Valley</h3>
-                            <p class="text-gray-600 mb-5">
-                                California may be the world’s largest and best-known technology hub, but it is not alone in fostering innovative startups. In fact, such firms are emerging – almost unnoticed – everywhere, from Asian megalopolises like Singapore and Shanghai to small European cities like Espoo in Finland and Dwingeloo in the Netherlands.
-                            </p>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3">Martens Center</h3>
                             <span class="font-semibold text-cyan-500 text-lg mt-auto">Read more →</span>
                         </div>
                     </a>
                 </div>
             </div>
         </section>
+		
+		<!-- Reports -->
+		<section id="reports" class="py-24 bg-gray-50 fade-in-on-scroll">
+		    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		        <div class="text-center mb-16">
+		            <h2 class="text-4xl font-extrabold text-slate-900">Reports</h2>
+		        </div>
+        
+		        <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
+            
+		            <a href="https://www.martenscentre.eu/publication/transatlantic-trade-and-technology-partners-or-rivals/" target="_blank"
+		                class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100">
+                
+		                <img src="https://placehold.co/600x400/475569/white?text=Martens+Centre&font=inter" alt="Martens Centre" class="w-full h-48 object-cover">
+                
+		                <div class="p-6 flex flex-col flex-1">
+		                    <h3 class="text-2xl font-bold text-slate-800 mb-3">Transatlantic Trade and Technology: Partners or Rivals?</h3>
+		                    <p class="text-gray-600 mb-5">
+		                        A paper analyzing the EU-US Trade and Technology Council (TTC), its successes, and the mounting challenges from clean tech subsidies and differing regulatory speeds.
+		                    </p>
+		                    <span class="font-semibold text-cyan-500 text-lg mt-auto">Read →</span>
+		                </div>
+		            </a>
+            
+		            <a href="https://journals.sagepub.com/doi/10.1177/17816858251339298" target="_blank"
+		                class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100">
+                
+		                <img src="https://placehold.co/600x400/475569/white?text=SAGE+Journals&font=inter" alt="SAGE Journals" class="w-full h-48 object-cover">
+                
+		                <div class="p-6 flex flex-col flex-1">
+		                    <h3 class="text-2xl font-bold text-slate-800 mb-3">Trump, tech and transatlantic Turbulence</h3>
+		                    <p class="text-gray-600 mb-5">
+		                        The Trump administration's hard line on allies strains the transatlantic alliance, sparking tech and trade conflicts. As the EU imposes strict tech regulations and the US deregulates, their divide deepens, creating an opening for China. Both sides must de-escalate: Europe should embrace tech, the US must accept EU regulation, and Silicon Valley should mediate.
+		                    </p>
+		                    <span class="font-semibold text-cyan-500 text-lg mt-auto">Read →</span>
+		                </div>
+		            </a>
+
+		        </div>
+		    </div>
+		</section>
 
         <!-- Team Section -->
-        <!-- Added fade-in-on-scroll class -->
         <section id="team" class="py-24 bg-gray-50 fade-in-on-scroll">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-12 md:gap-16 items-center">
                 <div class="flex justify-center md:justify-start">
@@ -233,25 +273,26 @@
         </section>
         
         <!-- Clients Section -->
-        <!-- Added fade-in-on-scroll class -->
-        <section id="clients" class="py-24 fade-in-on-scroll">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-4xl font-extrabold text-center text-slate-900 mb-16">Our Clients</h2>
-				<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-8">
-				    <div class="flex flex-col items-center justify-start gap-y-8">
-				        <img src="Images-Video/Rakuten.png" alt="Rakuten Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				        <img src="Images-Video/Mundaneum.png" alt="Mundaneum Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				        <img src="Images-Video/IAB-Europe.png" alt="IAB Europe Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				        <img src="Images-Video/Project-Syndicate.png" alt="PROJECT SYNDICATE Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				    </div>
-				    <div class="flex flex-col items-center justify-start gap-y-8">
-				        <img src="Images-Video/CCIA.png" alt="CCIA Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				        <img src="Images-Video/Oxford-Research.png" alt="Oxford Research Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				        <img src="Images-Video/Science-Business.png" alt="Science|Business Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				        <img src="Images-Video/CEPS.png" alt="CEPS Logo" class="h-28 w-auto opacity-70 hover:opacity-100 transition-opacity">
-				    </div>
-				</div>
-        </section>
+		<section id="clients" class="py-24 fade-in-on-scroll">
+		    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		        <h2 class="text-4xl font-extrabold text-center text-slate-900 mb-16">Our Clients</h2>
+        
+		        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-8">
+            
+		            <div class="flex flex-col items-center justify-start gap-y-8">
+		                <img src="Images-Video/Rakuten.png" alt="Rakuten Logo" class="h-28 w-72 object-contain opacity-70 hover:opacity-100 transition-opacity">
+		                <img src="Images-Video/Amazon.png" alt="Amazon Logo" class="h-28 w-72 object-contain opacity-70 hover:opacity-100 transition-opacity">
+		                <img src="Images-Video/Martens.svg" alt="Martens Centre Logo" class="h-28 w-72 object-contain opacity-70 hover:opacity-1to00 transition-opacity">
+		            </div>
+
+		            <div class="flex flex-col items-center justify-start gap-y-8">
+		                <img src="Images-Video/CEPA.png" alt="CEPA Logo" class="h-28 w-72 object-contain opacity-70 hover:opacity-100 transition-opacity">
+		                <img src="Images-Video/Oxford-Research.png" alt="Oxford Research Logo" class="h-28 w-72 object-contain opacity-70 hover:opacity-100 transition-opacity">
+		            </div>
+            
+		        </div>
+		    </div>
+		</section>
 
         <!-- Contact Section -->
         <!-- Added fade-in-on-scroll class -->
@@ -291,8 +332,7 @@
     <footer class="bg-white border-t border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <div class="mb-4 md:mb-0">
-                <!-- Replaced text logo with img placeholder -->
-                <img src="Images-Video/E+Europe-logo.svg" 
+                <img src="Images-Video/E+Europe_logo.png" 
                      alt="E+Europe Logo" 
                      class="h-10 w-auto mx-auto md:mx-0">
                 <p class="text-sm text-gray-500 mt-2">Your guide to communications and government affairs in Brussels.</p>
