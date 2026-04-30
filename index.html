@@ -43,6 +43,23 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+	  
+	  /* Custom Scrollbar for horizontal scrolling areas
+	  .custom-scrollbar::-webkit-scrollbar {
+		  height: 8px;
+	        }
+			.custom-scrollbar::-webkit-scrollbar-track {
+				background: #f1f5f9; 
+				border-radius: 4px;
+				}
+			.custom-scrollbar::-webkit-scrollbar-thumb {
+				background: #0ea5e9; 
+				border-radius: 4px;
+				}
+			.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+				background: #0284c7; 
+			}
+	  */
     </style>
   </head>
   <body id="top" class="bg-white text-gray-800">
@@ -190,96 +207,93 @@
         </div>
       </section>
 
-      <section id="reports" class="py-24 bg-gray-50 fade-in-on-scroll">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl font-extrabold text-slate-900">Reports</h2>
-          </div>
+	  <section id="reports" class="py-24 bg-gray-50 fade-in-on-scroll">
+	          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+	            <div class="text-center mb-16">
+	              <h2 class="text-4xl font-extrabold text-slate-900">Reports</h2>
+	            </div>
 
-          <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
-            <a
-              href="https://www.martenscentre.eu/publication/transatlantic-trade-and-technology-partners-or-rivals/"
-              target="_blank"
-              class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100"
-            >
-              <div
-                class="w-full h-32 flex items-center justify-center bg-cyan-50"
-              >
-                <svg
-                  class="w-12 h-12 text-cyan-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"
-                  />
-                </svg>
-              </div>
-              <div class="p-6 flex flex-col flex-1">
-                <h3 class="text-2xl font-bold text-slate-800 mb-3">
-                  Transatlantic Trade and Technology: Partners or Rivals?
-                </h3>
-                <p class="text-gray-600 mb-5">
-                  A paper analyzing the EU-US Trade and Technology Council
-                  (TTC), its successes, and the mounting challenges from clean
-                  tech subsidies and differing regulatory speeds.
-                </p>
-                <span class="font-semibold text-cyan-500 text-lg mt-auto"
-                  >Read →</span
-                >
-              </div>
-            </a>
+	            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+	              <a
+	                href="https://www.martenscentre.eu/publication/transatlantic-trade-and-technology-partners-or-rivals/"
+	                target="_blank"
+	                class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100"
+	              >
+	                <div class="w-full h-32 flex items-center justify-center bg-cyan-50">
+	                  <svg class="w-12 h-12 text-cyan-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+	                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+	                  </svg>
+	                </div>
+              
+	                <div class="p-6 flex flex-col flex-1">
+	                  <h3 class="text-2xl font-bold text-slate-800 mb-3">
+	                    Transatlantic Trade and Technology: Partners or Rivals?
+	                  </h3>
+	                  <p class="text-gray-600 mb-5">
+	                    A paper analyzing the EU-US Trade and Technology Council (TTC), its successes, and the mounting challenges from clean tech subsidies and differing regulatory speeds.
+	                  </p>
+	                  <span class="font-semibold text-cyan-500 text-lg mt-auto">Read →</span>
+	                </div>
+	              </a>
 
-            <a
-              href="https://journals.sagepub.com/doi/10.1177/17816858251339298"
-              target="_blank"
-              class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100"
-            >
-              <div
-                class="w-full h-32 flex items-center justify-center bg-cyan-50"
-              >
-                <svg
-                  class="w-12 h-12 text-cyan-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
-                  />
-                </svg>
-              </div>
-              <div class="p-6 flex flex-col flex-1">
-                <h3 class="text-2xl font-bold text-slate-800 mb-3">
-                  Trump, tech and transatlantic Turbulence
-                </h3>
-                <p class="text-gray-600 mb-5">
-                  The Trump administration's hard line on allies strains the
-                  transatlantic alliance, sparking tech and trade conflicts. As
-                  the EU imposes strict tech regulations and the US deregulates,
-                  their divide deepens, creating an opening for China. Both
-                  sides must de-escalate: Europe should embrace tech, the US
-                  must accept EU regulation, and Silicon Valley should mediate.
-                </p>
-                <span class="font-semibold text-cyan-500 text-lg mt-auto"
-                  >Read →</span
-                >
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
+	              <a
+	                href="Open Digital Sovereignty Project.pdf"
+	                target="_blank"
+	                class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100"
+	              >
+	                <div class="w-full h-32 flex items-center justify-center bg-cyan-50">
+						<svg
+					  			class="w-12 h-12 text-cyan-600"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"		
+								stroke="currentColor"
+								aria-hidden="true"
+							>
+								<path stroke-linecap="round" stroke-linejoin="round" d="M12 2.5L20 7L12 11.5L4 7L12 2.5Z" />
+								<path stroke-linecap="round" stroke-linejoin="round" d="M4 10.5L12 15L20 10.5" />
+								<path stroke-linecap="round" stroke-linejoin="round" d="M4 14L12 18.5L20 14" />
+								<path stroke-linecap="round" stroke-linejoin="round" d="M4 17.5L12 22L20 17.5" />
+							</svg>
+	                </div>
+              
+	                <div class="p-6 flex flex-col flex-1">
+	                  <h3 class="text-2xl font-bold text-slate-800 mb-3">
+	                    Open Digital Sovereignty
+	                  </h3>
+	                  <p class="text-gray-600 mb-5">
+	                    An analysis of how Europe can maintain strategic autonomy and secure its tech infrastructure without resorting to digital protectionism or closing its markets to global innovation.
+	                  </p>
+	                  <span class="font-semibold text-cyan-500 text-lg mt-auto">Read →</span>
+	                </div>
+	              </a>
+
+	              <a
+	                href="https://journals.sagepub.com/doi/10.1177/17816858251339298"
+	                target="_blank"
+	                class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden movement-card border border-gray-100"
+	              >
+	                <div class="w-full h-32 flex items-center justify-center bg-cyan-50">
+	                  <svg class="w-12 h-12 text-cyan-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+	                    <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+	                  </svg>
+	                </div>
+	                <div class="p-6 flex flex-col flex-1">
+	                  <h3 class="text-2xl font-bold text-slate-800 mb-3">
+	                    Trump, tech and transatlantic Turbulence
+	                  </h3>
+	                  <p class="text-gray-600 mb-5">
+	                    The Trump administration's hard line on allies strains the transatlantic alliance, sparking tech and trade conflicts. As the EU imposes strict tech regulations and the US deregulates, their divide deepens, creating an opening for China. Both sides must de-escalate: Europe should embrace tech, the US must accept EU regulation, and Silicon Valley should mediate.
+	                  </p>
+	                  <span class="font-semibold text-cyan-500 text-lg mt-auto">Read →</span>
+	                </div>
+	              </a>
+
+	            </div>
+	          </div>
+	        </section>
 
       <section id="team" class="py-24 bg-white fade-in-on-scroll">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
